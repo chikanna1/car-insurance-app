@@ -1,9 +1,36 @@
 .showcase-container {
-  .video {
-  }
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
 
   .showcase-content {
-    position: relative;
-    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-size: 60px;
+      color: white;
+    }
+
+    h3 {
+      font-size: 40px;
+      color: orange;
+    }
+
+    .quote-button-container {
+      .quote-button {
+        margin-top: 50px;
+        font-size: 40px;
+        padding: 20px;
+        border-radius: 45px;
+        cursor: pointer;
+        background-color: orange;
+        border: none;
+        color: white;
+      }
+    }
   }
 }

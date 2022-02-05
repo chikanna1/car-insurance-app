@@ -1,0 +1,21 @@
+.reviews-section-homepage-container {
+  width: 100vw;
+  height: 30vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  .left-side {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 30px;
+    .average-reviews-number {
+      font-size: 50px;
+    }
+  }
+}

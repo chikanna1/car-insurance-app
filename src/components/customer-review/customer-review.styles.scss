@@ -1,0 +1,18 @@
+.customer-review-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 200px;
+  padding: 10px 20px;
+
+  align-items: flex-start;
+  text-align: left;
+
+  .customer-review-stars {
+    padding: 10px 0;
+  }
+
+  .customer-review-text {
+    font-size: 20px;
+  }
+}
