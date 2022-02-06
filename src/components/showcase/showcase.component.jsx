@@ -53,7 +53,7 @@ const Showcase = () => {
         />
         <div className={classes.overlay}>
           <div className="showcase-content">
-            <h1>You Deserve Smarter Homeowners Insurance</h1>
+            <h1>You Deserve Smarter Auto Insurance</h1>
             <h3>Save up to 25%*• Get an instant quote</h3>
             <div className="quote-button-container">
               <button className="quote-button">Quote in 60 Seconds</button>
