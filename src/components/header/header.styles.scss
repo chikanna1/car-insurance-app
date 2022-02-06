@@ -4,8 +4,9 @@
   //   background: white;
   z-index: 1;
 
-  position: sticky;
-  position: -webkit-sticky;
+  // position: sticky;
+  // position: -webkit-sticky;
+  position: absolute;
   top: 0; /* required */
 
   display: flex;
@@ -24,8 +25,9 @@
     flex-direction: row;
     align-items: center;
     .header-link {
-      font-size: 25px;
-      padding: 0 10px;
+      font-size: 20px;
+      padding: 0 5px;
+      margin: 0 10px;
       text-decoration: none;
       color: white;
 

@@ -2,6 +2,7 @@ import React from "react";
 import "./homepage.styles.scss";
 import Showcase from "../../components/showcase/showcase.component";
 import ReviewsSectionHomepage from "../../components/reviews-section-homepage/reviews-section-homepage.component";
+import Header from "../../components/header/header.component";
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -15,6 +16,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="homepage-container">
+        <Header />
         <Showcase />
         <ReviewsSectionHomepage />
       </div>
