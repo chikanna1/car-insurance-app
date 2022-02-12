@@ -23,7 +23,6 @@
     "react-player": "^2.9.0",
     "react-responsive-carousel": "^3.2.22",
     "react-router-dom": "^6.2.1",
-    "react-script-hook": "^1.6.0",
     "react-scripts": "5.0.0",
     "sass": "^1.49.0",
     "use-places-autocomplete": "^1.11.0",

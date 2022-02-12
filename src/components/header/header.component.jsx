@@ -3,7 +3,6 @@ import "./header.styles.scss";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AddressInput from "../address-input/address-input.component";
-import useScript from "react-script-hook";
 
 function Header() {
   return (
