@@ -8,6 +8,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import VideoPlayer from "react-background-video-player";
 import { createPortal } from "react-dom";
 import { faBlackberry } from "@fortawesome/free-brands-svg-icons";
+import QuoteButton from "../quote-button/quote-button.component";
 
 const myStyle = {};
 
@@ -55,9 +56,7 @@ const Showcase = () => {
           <div className="showcase-content">
             <h1>You Deserve Smarter Auto Insurance</h1>
             <h3>Save up to 25%*• Get an instant quote</h3>
-            <div className="quote-button-container">
-              <button className="quote-button">Quote in 60 Seconds</button>
-            </div>
+            <QuoteButton size="large" />
           </div>
         </div>
       </section>

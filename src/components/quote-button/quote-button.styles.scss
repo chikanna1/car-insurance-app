@@ -1,0 +1,22 @@
+.quote-button-container {
+  .quote-button {
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+    &.large {
+      margin-top: 50px;
+      font-size: 40px;
+      padding: 20px;
+      border-radius: 45px;
+    }
+
+    &.small {
+      font-size: 20px;
+      padding: 10px;
+      border-radius: 45px;
+    }
+  }
+}

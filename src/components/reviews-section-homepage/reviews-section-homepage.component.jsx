@@ -2,6 +2,7 @@ import React from "react";
 import "./reviews-section-homepage.styles.scss";
 import Rating from "@mui/material/Rating";
 import ReviewsCarousel from "../reviews-carousel/reviews-carousel.component";
+import { Link } from "react-router-dom";
 
 const testprops = {
   averageReview: 4.9,
@@ -21,6 +22,9 @@ const ReviewsSectionHomepage = (props) => (
       </div>
       <div className="right-side">
         <ReviewsCarousel />
+        <Link className="see-all-reviews" to="/">
+          See All Reviews
+        </Link>
       </div>
     </div>
   </div>
