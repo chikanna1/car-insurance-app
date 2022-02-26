@@ -1,5 +1,8 @@
 .homepage-container {
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
+  overflow: hidden;
+
+  .homepage-sections {
+    display: flex;
+    flex-direction: column;
+  }
 }

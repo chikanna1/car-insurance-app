@@ -12,6 +12,7 @@ const ReviewsCarousel = (props) => (
       centerMode={true}
       centerSlidePercentage={33.3}
       showIndicators={false}
+      showThumbs={false}
     >
       <div>
         <CustomerReview />

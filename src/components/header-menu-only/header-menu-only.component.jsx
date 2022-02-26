@@ -1,21 +1,17 @@
-import React, { useState } from "react";
-import "./header.styles.scss";
+import React from "react";
+import "./header-menu-only.styles.scss";
+
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AddressInput from "../address-input/address-input.component";
 
-class Header extends React.Component {
+class HeaderMenuOnly extends React.Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      displayHeader3: true,
-    };
   }
-
   render() {
     return (
-      <div className="header-container">
+      <div className="header-menu-only-container">
         <div className="header-left">
           <h1 className="logo">LOGO</h1>
         </div>
@@ -44,19 +40,10 @@ class Header extends React.Component {
               />
             </Link>
           </div>
-          <div
-            className={
-              this.state.displayHeader3 === true
-                ? `address-input display`
-                : `address-input hide`
-            }
-          >
-            <AddressInput />
-          </div>
         </div>
       </div>
     );
   }
 }
 
-export default Header;
+export default HeaderMenuOnly;
