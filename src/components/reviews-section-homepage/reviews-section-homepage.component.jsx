@@ -8,13 +8,19 @@ const testprops = {
   averageReview: 4.9,
   verfiedReviewsNumber: 3018,
 };
+
 const ReviewsSectionHomepage = (props) => (
   <div className="reviews-section-homepage-container">
     <div className="reviews-content">
       <div className="left-side">
         <div className="average-reviews-number">{testprops.averageReview}</div>
         <div className="average-reviews-stars">
-          <Rating name="read-only" value={testprops.averageReview} readOnly />
+          <Rating
+            name="read-only"
+            value={testprops.averageReview}
+            readOnly
+            style={{ zIndex: 0 }}
+          />
         </div>
         <p className="verified-reviews-number">
           {testprops.verfiedReviewsNumber} verified customers reviews

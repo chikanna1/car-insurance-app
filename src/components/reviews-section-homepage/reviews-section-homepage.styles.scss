@@ -3,7 +3,9 @@
   height: 300px;
   background-color: white;
   overflow: hidden;
-  margin-top: 60vh;
+  margin-top: 50vh;
+  padding-top: 50px;
+  z-index: -5 !important;
 
   .reviews-content {
     display: flex;

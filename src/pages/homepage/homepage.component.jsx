@@ -3,6 +3,8 @@ import "./homepage.styles.scss";
 import Showcase from "../../components/showcase/showcase.component";
 import ReviewsSectionHomepage from "../../components/reviews-section-homepage/reviews-section-homepage.component";
 import Header from "../../components/header/header.component";
+
+import ModernAutoInsurance from "../../components/modern-auto-insurance/modern-auto-insurance.component";
 import MoreThanAutoInsurance from "../../components/more-than-auto-insurance/more-than-auto-insurance.component";
 import HeaderMenuOnly from "../../components/header-menu-only/header-menu-only.component";
 import { Sticky, StickyScrollUp, StickyProvider } from "react-stickup";
@@ -53,6 +55,7 @@ class HomePage extends React.Component {
               </Sticky>
             )}
             <ReviewsSectionHomepage />
+            <ModernAutoInsurance />
             <MoreThanAutoInsurance />
           </div>
         </StickyProvider>

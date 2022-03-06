@@ -7,6 +7,7 @@
 
   align-items: flex-start;
   text-align: left;
+  z-index: 0 !important;
 
   .customer-review-stars {
     padding: 10px 0;
@@ -14,5 +15,6 @@
 
   .customer-review-text {
     font-size: 20px;
+    z-index: 0 !important;
   }
 }
