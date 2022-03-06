@@ -1,6 +1,7 @@
 import React from "react";
 import "./modern-auto-insurance.styles.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 const ModernAutoInsurance = () => (
   <div className="modern-auto-insurance-container">
@@ -32,6 +33,11 @@ const ModernAutoInsurance = () => (
         <FontAwesomeIcon className="icon" size="2x" icon={["fa", "bullhorn"]} />
         <h3>Earn cash for referring friends</h3>
       </div>
+    </div>
+    <div className="get-a-quote">
+      <Link className="get-a-quote-link" to="/">
+        Let's Get A Quote
+      </Link>
     </div>
   </div>
 );
