@@ -1,0 +1,36 @@
+.footer-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 15%;
+  color: black;
+
+  .footer-links {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    color: black;
+
+    .link-group {
+      display: flex;
+      flex-direction: column;
+
+      .footer-link {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px 0;
+        color: black;
+      }
+    }
+  }
+
+  .footer-social-icons {
+    .social-media-icon {
+      margin: 0 10px;
+      padding: 10px;
+      border: 1px solid black;
+      font-size: 90px;
+      color: black;
+    }
+  }
+}

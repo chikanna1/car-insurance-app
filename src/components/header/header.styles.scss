@@ -8,6 +8,7 @@
   flex-direction: row;
   background-color: rgb(82, 82, 82);
   z-index: 0;
+  animation: fade-in 0.5s ease-in;
 
   .header-left {
     width: 30%;
@@ -29,6 +30,7 @@
       align-items: center;
       // display: none;
       margin-bottom: 50px;
+
       .header-link {
         font-size: 20px;
         padding: 0 5px;
@@ -43,6 +45,25 @@
         }
         &.icon {
           color: orange;
+        }
+      }
+
+      &.hide {
+        display: none;
+      }
+
+      &.display {
+        animation: fade-in 0.5s ease-in;
+      }
+
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+          height: 0;
+        }
+        100% {
+          opacity: 1;
+          height: 21px;
         }
       }
     }

@@ -1,0 +1,24 @@
+.here-to-help-container {
+  background: rgba(202, 69, 29, 0.9);
+  display: flex;
+  padding: 100px;
+
+  .here-to-help-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0 75px;
+
+    h1 {
+      font-size: 30px;
+      padding: 20px 0;
+      color: white;
+      font-weight: 550;
+    }
+
+    p {
+      font-size: 20px;
+      padding: 20px 0;
+      color: white;
+    }
+  }
+}
